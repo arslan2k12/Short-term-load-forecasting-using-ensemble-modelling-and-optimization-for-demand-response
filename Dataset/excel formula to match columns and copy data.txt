@@ -1,0 +1,9 @@
+use match and index functions
+
+first use match function to get the row number of the time in energy sheet that matches the time in weather sheet
+=MATCH(A2,Sheet1!A:A,0)
+
+then use that row number in index function to copy data of that row number from energy sheet to weather sheet
+=INDEX(Sheet1!$A$1:$C$76842,M2,2)
+
+use $ sign before each letter and number in the formula to avoid increment in the formula when you drag the formula to copy
