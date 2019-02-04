@@ -3,3 +3,5 @@ Forecasting and Optimization - Coded in Python
 
 This code is a part of my MSc thesis.
 Copyrights fully protected.
+
+More details and code coming soon.
